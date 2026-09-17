@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Generate Report') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\lekha\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" app.py'
             }
         }
         stage('Archive Report') {
